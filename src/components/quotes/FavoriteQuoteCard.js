@@ -1,8 +1,8 @@
 import React from "react";
 
-function FavoriteQuoteCard({ quote, removeFromFavorites }) {
+function FavoriteQuoteCard({ quote, removeFromFavorites, listPostion }) {
   return (
-    <li className="quote-card">
+    <li className="quote-card" data-list-position={listPostion}>
       <span className="close-quote" onClick={() => removeFromFavorites(quote.id)} >
         x
       </span>
