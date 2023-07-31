@@ -7,7 +7,7 @@ function Header() {
         <h1>
           <span>“</span>Quotivation
         </h1>
-        <h2>Words to Fuel your Day</h2>
+        <h2>Words to Fuel your Day 🔥</h2>
       </div>
     </header>
   );
